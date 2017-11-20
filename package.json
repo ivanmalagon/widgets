@@ -1,0 +1,17 @@
+{
+  "name": "widgets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "histogram": "svelte compile -i histogram.html -o histogram.js --format iife --name Histogram && minify --output histogram.min.js histogram.js"
+  },
+  "author": "@ivanmalagon",
+  "dependencies": {
+    "svelte": "^1.41.3"
+  },
+  "devDependencies": {
+    "minifier": "^0.8.1",
+    "svelte-cli": "^1.4.0"
+  }
+}

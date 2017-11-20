@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <div id="histogram"></div>
+    <script src="histogram.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var div = document.getElementById('histogram');
+        window.widget = new Histogram({
+          target: div
+        });
+      });
+    </script>
+  </body>
+</html>
